@@ -4,37 +4,61 @@ window.addEventListener('keydown',chosenButton);
 let display_screen=document.getElementById("inputField");
 console.log(display_screen);
 let inputStr='';
-
 add=(a,b)=>{
-
+    try{
     if(a.includes(".")|| b.includes(".")){
         return (parseFloat(b)+parseFloat(a)).toString();
     }
+    
     return (parseInt(b)+parseInt(a)).toString();
+    }catch(err){
+        return "Fishy Number";
+    }
 }
 multiply=(a,b)=>{
-    if(a.includes(".")|| b.includes(".")){
-        return (parseFloat(b)*parseFloat(a)).toString();
-    }
-    return (parseInt(b)*parseInt(a)).toString();
+    
+    try{
+        if(a.includes(".")|| b.includes(".")){
+            return (parseFloat(b)*parseFloat(a)).toString();
+        }
+        
+        return (parseInt(b)*parseInt(a)).toString();
+        }catch(err){
+            return "Fishy Number";
+        }
 }
 subtract=(a,b)=>{
 
-    if(a.includes(".")|| b.includes(".")){
-        return (parseFloat(b)-parseFloat(a)).toString();
-    }
-    return parseInt(b)-parseInt(a);
+    try{
+        if(a.includes(".")|| b.includes(".")){
+            return (parseFloat(b)-parseFloat(a)).toString();
+        }
+        
+        return (parseInt(b)-parseInt(a)).toString();
+        }catch(err){
+            return "Fishy Number";
+        }
 }
 divide=(a,b)=>{
 
-    if(a.includes(".")|| b.includes(".")){
-        return (parseFloat(b)/parseFloat(a)).toString();
-    }
-    return (parseInt(b)/parseInt(a)).toString();
+    try{
+        if(a.includes(".")|| b.includes(".")){
+            return (parseFloat(b)/parseFloat(a)).toString();
+        }
+        
+        return (parseInt(b)/parseInt(a)).toString();
+        }catch(err){
+            return "Fishy Number";
+        }
 }
 mod=(a,b)=>{
+    try{
     return (parseInt(b)%parseInt(a)).toString();
+    }catch(err){
+        return "Fishy Number";
+    }
 }
+
 let checkdeci=false;
 /**Reading input on the display as String */
 
