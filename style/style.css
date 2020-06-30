@@ -1,0 +1,118 @@
+@font-face{font-family: pacifico; src: url("Pacifico.ttf");}
+.mainContainer{
+    background-color: black;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+}
+header{
+    text-align: center;
+    color: beige;
+    font-family: pacifico;
+    font-size: large;
+    text-shadow: 2px 2px yellow;
+}
+.Display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+    text-align: right;
+}
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-end;
+    background-color: white;
+    width:320px;
+    height: auto;
+    font-size: xx-large;
+    color: grey;
+    height: 65px;
+    text-align: right;
+
+}
+.keypad{
+    width:328px;
+    height:auto;
+    background-color:#424242;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.row1{
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    padding: 10px;
+}
+.row2{
+    display: flex;
+    flex-flow: row;
+    padding:10px;
+    flex-wrap: nowrap;
+}
+.row3{
+    display: flex;
+    flex-flow: row;
+    padding:10px;
+    flex-wrap: nowrap;   
+}
+.row4{
+    display: flex;
+    flex-flow: row;
+    padding:10px;
+    flex-wrap: nowrap;
+}
+.row5{
+    display: flex;
+    flex-flow: row;
+    padding:10px;
+    flex-wrap: nowrap;
+}
+.divide_btn{
+    background-color: orange;
+}
+#btn{
+    border-radius:100%;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: none;
+   
+}
+.operations{
+    background-color: orange;
+    border-color: orange;
+    color: white;
+}
+.normal{
+    background-color: white;
+    border-color: white;
+}
+.keys{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+#btn:focus {
+    outline: 0 !important;
+}
+.zero{
+    width:120px;
+    border-radius:25%;
+    text-align: center;
+    height: 60px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.zero:focus{
+    outline: 0 !important;
+}

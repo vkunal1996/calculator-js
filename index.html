@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator.js</title>
+        <link href='style/style.css' rel="stylesheet"/>
+    
+    </head>
+    <body>
+        <div class='mainContainer'>
+            <header>
+                <h1 class='mainHeading'>Calculator.js</h1>
+            </header>
+            <div class='Display'>
+                <!-- <div class='input' id='inputField'><p class='placeholder'></p></div> -->
+                <input type='text' disabled class="input" id="inputField" placeholder="0">
+            </div>
+            <div class="keypad">
+                <div class='row1'>
+                    <div class='ac'>
+                        <button class='ac_btn normal clear' id='btn'>AC</button> 
+                    </div>
+                    <div class='plus_minus'>
+                        <button class='plus_minus_btn normal' id='btn'>C</button>
+                    </div>
+                    <div class='modulo'>
+                        <button class='modulo_btn normal' id='btn'>%</button>
+                    </div>
+                    <div class='divide'>
+                        <button class='divide_btn operations division_operation' id='btn'>/</button>
+                    </div>
+                </div>
+                <div class='row2'>
+
+                    <div class='ac'>
+                        <button class='ac_btn keys seven' id='btn'>7</button> 
+                    </div>
+                    <div class='plus_minus'>
+                        <button class='plus_minus_btn keys eight' id='btn'>8</button>
+                    </div>
+                    <div class='modulo'>
+                        <button class='modulo_btn keys nine' id='btn'>9</button>
+                    </div>
+                    <div class='multiply'>
+                        <button class='multiply_btn operations multiply_operation' id='btn'>X</button>
+                    </div>
+                    
+                </div>
+                <div class='row3'>
+
+                    <div class='ac'>
+                        <button class='ac_btn keys four'  id='btn'>4</button> 
+                    </div>
+                    <div class='plus_minus'>
+                        <button class='plus_minus_btn keys five' id='btn'>5</button>
+                    </div>
+                    <div class='modulo'>
+                        <button class='modulo_btn keys six' id='btn'>6</button>
+                    </div>
+                    <div class='minus'>
+                        <button class='minus_btn operations minus_operation' id='btn'>-</button>
+                    </div>
+
+                </div>
+                <div class='row4'>
+
+                    <div class='ac'>
+                        <button class='ac_btn keys one' id='btn'>1</button> 
+                    </div>
+                    <div class='plus_minus'>
+                        <button class='plus_minus_btn keys two' id='btn'>2</button>
+                    </div>
+                    <div class='modulo'>
+                        <button class='modulo_btn keys three' id='btn'>3</button>
+                    </div>
+                    <div class='plus'>
+                        <button class='plus_btn operations plus_operation' id='btn'>+</button>
+                    </div>
+
+                </div>
+                <div class='row5'>
+                    <div class='ac zero'>
+                        <button class='ac_btn keys zero' id="btn" style="width:120px;height: 60px; border-radius: 25%;">0</button> 
+                    </div>
+                    <div class='modulo'>
+                        <button class='modulo_btn keys' id='btn'>.</button>
+                    </div>
+                    <div class='plus'>
+                        <button class='plus_btn operations equal_operation' id='btn'>=</button>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </body>
+    <script src='js/app.js'></script>
+
+    
+</html>
