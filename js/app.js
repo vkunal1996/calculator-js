@@ -6,41 +6,28 @@ console.log(display_screen);
 let inputStr='';
 
 add=(a,b)=>{
-<<<<<<< HEAD
-    if(a.includes(".") || b.includes(".")){
-=======
+
     if(a.inlcudes(".")|| b.inlcudes(".")){
->>>>>>> evaluate
         return parseFloat(b)+parseFloat(a);
     }
     return parseInt(b)+parseInt(a);
 }
-multiply=(a,b)=>{
-<<<<<<< HEAD
-    if(a.includes(".") || b.includes(".")){
-=======
+
     if(a.inlcudes(".")|| b.inlcudes(".")){
->>>>>>> evaluate
         return parseFloat(b)*parseFloat(a);
     }
     return parseInt(b)*parseInt(a);
 }
 subtract=(a,b)=>{
-<<<<<<< HEAD
-    if(a.includes(".") || b.includes(".")){
-=======
+
     if(a.inlcudes(".")|| b.inlcudes(".")){
->>>>>>> evaluate
         return parseFloat(b)-parseFloat(a);
     }
     return parseInt(b)-parseInt(a);
 }
 divide=(a,b)=>{
-<<<<<<< HEAD
-    if(a.includes(".") || b.includes(".")){
-=======
+
     if(a.inlcudes(".")|| b.inlcudes(".")){
->>>>>>> evaluate
         return parseFloat(b)/parseFloat(a);
     }
     return parseInt(b)/parseInt(a);
