@@ -8,32 +8,32 @@ let inputStr='';
 add=(a,b)=>{
 
     if(a.includes(".")|| b.includes(".")){
-        return parseFloat(b)+parseFloat(a);
+        return (parseFloat(b)+parseFloat(a)).toString();
     }
-    return parseInt(b)+parseInt(a);
+    return (parseInt(b)+parseInt(a)).toString();
 }
 multiply=(a,b)=>{
     if(a.includes(".")|| b.includes(".")){
-        return parseFloat(b)*parseFloat(a);
+        return (parseFloat(b)*parseFloat(a)).toString();
     }
-    return parseInt(b)*parseInt(a);
+    return (parseInt(b)*parseInt(a)).toString();
 }
 subtract=(a,b)=>{
 
     if(a.includes(".")|| b.includes(".")){
-        return parseFloat(b)-parseFloat(a);
+        return (parseFloat(b)-parseFloat(a)).toString();
     }
     return parseInt(b)-parseInt(a);
 }
 divide=(a,b)=>{
 
     if(a.includes(".")|| b.includes(".")){
-        return parseFloat(b)/parseFloat(a);
+        return (parseFloat(b)/parseFloat(a)).toString();
     }
-    return parseInt(b)/parseInt(a);
+    return (parseInt(b)/parseInt(a)).toString();
 }
 mod=(a,b)=>{
-    return parseInt(b)%parseInt(a);
+    return (parseInt(b)%parseInt(a)).toString();
 }
 let checkdeci=false;
 /**Reading input on the display as String */
