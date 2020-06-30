@@ -12,7 +12,7 @@ add=(a,b)=>{
     }
     return parseInt(b)+parseInt(a);
 }
-
+multiply=(a,b)=>{
     if(a.inlcudes(".")|| b.inlcudes(".")){
         return parseFloat(b)*parseFloat(a);
     }
