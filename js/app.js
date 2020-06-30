@@ -7,27 +7,27 @@ let inputStr='';
 
 add=(a,b)=>{
 
-    if(a.inlcudes(".")|| b.inlcudes(".")){
+    if(a.includes(".")|| b.includes(".")){
         return parseFloat(b)+parseFloat(a);
     }
     return parseInt(b)+parseInt(a);
 }
 multiply=(a,b)=>{
-    if(a.inlcudes(".")|| b.inlcudes(".")){
+    if(a.includes(".")|| b.includes(".")){
         return parseFloat(b)*parseFloat(a);
     }
     return parseInt(b)*parseInt(a);
 }
 subtract=(a,b)=>{
 
-    if(a.inlcudes(".")|| b.inlcudes(".")){
+    if(a.includes(".")|| b.includes(".")){
         return parseFloat(b)-parseFloat(a);
     }
     return parseInt(b)-parseInt(a);
 }
 divide=(a,b)=>{
 
-    if(a.inlcudes(".")|| b.inlcudes(".")){
+    if(a.includes(".")|| b.includes(".")){
         return parseFloat(b)/parseFloat(a);
     }
     return parseInt(b)/parseInt(a);
