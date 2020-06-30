@@ -69,8 +69,10 @@ function chosenButton(e){
         console.log(e.key);
     }
     else{
-        buttonChoice=e.path[0].innerHTML;
-        console.log(buttonChoice);
+        let path=e.path || (e.composedPath && e.composedPath());
+        console.log(path[0].lastChild.data);
+        buttonChoice=path[0].lastChild.data;
+        //console.log(buttonChoice);
     }
     switch(buttonChoice){
         case '0':
